@@ -13,6 +13,4 @@ int main(void){
     r=(x-x0)/h;
     f=f0+r*(f1-f0);
     printf("補間値 f(%f)=%f\n",x,f);
-    printf("真値 f(%f)\n",h);
-    printf("誤差 f(%f)\n",r);
 }
